@@ -9,7 +9,7 @@ for dirName, subdirList, fileList in os.walk(rootDir):
     for fname in fileList:
         if fname.startswith('NOTEEVENTS'):
            print('\t%s' % fname)
-           dest = 'C:/Users/Bisakha Ray/Desktop/YIN/Discharge_Summaries/'+fname
+           dest = 'C:/Users/Bisakha Ray/Desktop/YIN/NoteEvents/'+fname
            src = dirName+'/'+fname
            
            f = open(src)
